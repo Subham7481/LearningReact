@@ -10,8 +10,13 @@ function App() {
     console.log('Clicked!', counter)
     
     if(counter < 20){
-      counter += 1
-      setCounter(counter)
+      // counter += 1
+      setCounter(counter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)
+      //Value will increase by 1 because override all the setCounter and only last will work.
     }
   }
 
