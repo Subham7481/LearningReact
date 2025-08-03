@@ -1,14 +1,6 @@
-import conf from "../conf/conf";
+import conf from "../conf/conf.js";
 import {Client, Account, ID} from 'appwrite';
-
-// export const 
-
-// client
-//     .setEndpoint(conf.appwriteUrl)
-//     .setProject(conf.appwriteProjectId)
-
-// export const account = new Account(client);
-// export { ID } from 'appwrite';
+// import authService from './Auth.js'
 
 export class AuthService{
     client = new Client();
